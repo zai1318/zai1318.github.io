@@ -1,0 +1,9 @@
+main:
+  - title: "🏠 Home"
+    url: /
+  - title: "🧠 Projects"
+    url: /projects/
+  - title: "📚 Publications"
+    url: /publications/
+  - title: "📄 CV"
+    url: /cv/

@@ -1,0 +1,41 @@
+title: "Zohaib Khan"
+locale: "en-US"
+url: "https://zai1318.github.io"
+
+# Use remote theme for GitHub Pages
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "air"
+
+author:
+  name: "Zohaib Khan"
+  bio: "Ph.D. Candidate · Control Science & Engineering · Jiangsu University"
+  avatar: "/assets/images/profile.png"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/zai1318"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/zohaib-khan-269a84213/"
+    - label: "Google Scholar"
+      icon: "fas fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=J3_w3twAAAAJ&hl=en"
+
+footer:
+  since: "2026"
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/zohaib-khan-269a84213/"
+    - label: "Google Scholar"
+      icon: "fas fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=J3_w3twAAAAJ&hl=en"
+
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: ""        # Add your GA ID later
+    anonymize_ip: true
+
+plugins:
+  - jekyll-include-cache
