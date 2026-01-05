@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "Publications"
+permalink: /publications/
 ---
 
 ### 📚 Published Papers

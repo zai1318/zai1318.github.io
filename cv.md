@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "Curriculum Vitae"
+permalink: /cv/
 ---
 
 ### 📄 Curriculum Vitae
