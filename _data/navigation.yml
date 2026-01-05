@@ -1,9 +1,13 @@
+# main navigation links for Zohaib Khan’s academic website
 main:
-  - title: "🏠 Home"
+  - title: "Home"
     url: /
-  - title: "🧠 Projects"
+
+  - title: "Projects"
     url: /projects/
-  - title: "📚 Publications"
+
+  - title: "Publications"
     url: /publications/
-  - title: "📄 CV"
+
+  - title: "Curriculum Vitae"
     url: /cv/
