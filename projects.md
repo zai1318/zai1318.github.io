@@ -98,7 +98,7 @@ By combining multi-branch attention and feature fusion, the model precisely deli
 <h4>🧪 Experimental Observation: Spray Deposition Validation</h4>
 
 <!-- Experimental Result Image -->
-  <img src="/assets/images/projects/orchard_results.jpg" 
+  <img src="/assets/images/projects/orchard-results.jpg" 
        alt="Results after spraying between trees" 
        style="display:block; margin:20px auto; border-radius:10px; 
               box-shadow:0 3px 8px rgba(0,0,0,0.25); max-width:90%;">

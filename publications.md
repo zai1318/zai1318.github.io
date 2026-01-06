@@ -14,7 +14,7 @@ permalink: /publications/
 - Khan, Zohaib, Hui Liu, Yue Shen, Zhaofeng Yang, Lanke Zhang, and Feng Yang. "Optimizing precision agriculture: A real-time detection approach for grape vineyard unhealthy leaves using deep learning improved YOLOv7 with feature extraction capabilities." *Computers and Electronics in Agriculture* **231** (2025): 109969. 
 - Khan, Zohaib, Yue Shen, and Hui Liu. "Object detection in agriculture: A comprehensive review of methods, applications, challenges, and future directions." *Agriculture* **15**, no. 13 (2025): 1351.
 
-These works focus on **deep learning**, **object detection**, and **instance segmentation** for agricultural environments, emphasizing **real-time precision perception** and **sustainable intelligent farming**.
+These works focus on deep learning, object detection, and instance segmentation for agricultural environments, emphasizing real-time precision perception and sustainable intelligent farming.
 
 ---
 

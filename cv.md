@@ -14,7 +14,7 @@ You can view or download my CV in either **English** or **Chinese** below.
 
 ---
 
-#### 🇬🇧 English Version
+#### EN English Version
 [📥 **Download English CV (PDF)**](/assets/files/Zohaib_Khan_CV_English.pdf)
 
 <iframe src="/assets/files/English_Resume.pdf" width="100%" height="800px" style="border-radius:10px;"></iframe>
