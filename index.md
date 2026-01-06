@@ -5,84 +5,10 @@ author_profile: true
 ---
 
 <style>
-/* ====== Academic Profile Typography (Fixed for Minimal Mistakes) ====== */
 .page__content {
   font-family: "Times New Roman", Times, serif !important;
-  font-size: 1.05em;
-  line-height: 1.8;
-  color: #111;
-  text-align: justify;
-  max-width: 760px;              /* keeps it readable without crushing */
-  margin: 0 auto;
-  hyphens: auto;
-  overflow-wrap: break-word;
-  word-break: normal;
-}
-
-/* ====== Headings ====== */
-.page__content h1,
-.page__content h2,
-.page__content h3,
-.page__content h4 {
-  font-family: "Times New Roman", Times, serif !important;
-  font-weight: bold;
-  color: #222;
-  margin-top: 1.4em;
-  margin-bottom: 0.6em;
-  letter-spacing: 0.3px;
-}
-
-.page__content h2 {
-  border-bottom: 1px solid #aaa;
-  padding-bottom: 0.3em;
-}
-
-/* ====== Paragraphs and Lists ====== */
-.page__content p,
-.page__content li {
-  font-size: 1.05em;
-  margin-bottom: 0.8em;
-  text-align: justify;
-  word-break: normal;
-  overflow-wrap: break-word;
-}
-
-/* ====== Links ====== */
-.page__content a {
-  color: #004080;
-  text-decoration: none;
-}
-.page__content a:hover {
-  text-decoration: underline;
-}
-
-/* ====== Horizontal Rule ====== */
-.page__content hr {
-  border: 0;
-  height: 1px;
-  background: #ccc;
-  margin: 2em 0;
-}
-
-/* ====== Contact Links ====== */
-.page__content .contact-links a {
-  display: inline-block;
-  margin-right: 10px;
-  font-size: 1.05em;
-}
-
-/* ====== Footer ====== */
-.page__content footer {
-  font-style: italic;
-  color: #666;
-  font-size: 0.95em;
-  margin-top: 2em;
-  text-align: right;
 }
 </style>
-
-
-<!-- ====== About Section ====== -->
 I am Zohaib Khan, a Ph.D. candidate in Control Science and Engineering at Jiangsu University in my last semester.
 My research focuses on machine learning and computer vision for agricultural robotics, with particular emphasis on object detection, semantic segmentation, and data-efficient model learning.
 I aim to develop robust, real-time perception systems capable of reliable operation in complex outdoor environments.
@@ -104,7 +30,7 @@ I aim to develop robust, real-time perception systems capable of reliable operat
 🔗 <a href="https://scholar.google.com/citations?user=J3_w3twAAAAJ&hl=en" target="_blank">Google Scholar</a>  
 🔗 <a href="https://orcid.org/0000-0001-8719-882X" target="_blank">ORCID ID</a>  
 </div>
+
 ---
-<footer>
-Last updated January 2026
-</footer>
+
+*Last updated January 2026*
