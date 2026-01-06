@@ -5,21 +5,25 @@ author_profile: true
 ---
 
 <style>
-/* ====== Academic Profile Typography ====== */
-body {
+/* ====== Academic Profile Typography (Fixed for Minimal Mistakes) ====== */
+.page__content {
   font-family: "Times New Roman", Times, serif !important;
   font-size: 1.05em;
-  line-height: 1.7;
-  text-align: justify;
+  line-height: 1.8;
   color: #111;
-  background-color: #fff;
+  text-align: justify;
+  max-width: 760px;              /* keeps it readable without crushing */
   margin: 0 auto;
-  max-width: 850px;
-  padding: 10px 20px;
+  hyphens: auto;
+  overflow-wrap: break-word;
+  word-break: normal;
 }
 
 /* ====== Headings ====== */
-h1, h2, h3, h4 {
+.page__content h1,
+.page__content h2,
+.page__content h3,
+.page__content h4 {
   font-family: "Times New Roman", Times, serif !important;
   font-weight: bold;
   color: #222;
@@ -28,29 +32,32 @@ h1, h2, h3, h4 {
   letter-spacing: 0.3px;
 }
 
-h2 {
+.page__content h2 {
   border-bottom: 1px solid #aaa;
   padding-bottom: 0.3em;
 }
 
-/* ====== Paragraph and List Styling ====== */
-p, li {
+/* ====== Paragraphs and Lists ====== */
+.page__content p,
+.page__content li {
   font-size: 1.05em;
   margin-bottom: 0.8em;
   text-align: justify;
+  word-break: normal;
+  overflow-wrap: break-word;
 }
 
 /* ====== Links ====== */
-a {
+.page__content a {
   color: #004080;
   text-decoration: none;
 }
-a:hover {
+.page__content a:hover {
   text-decoration: underline;
 }
 
-/* ====== Section Spacing ====== */
-hr {
+/* ====== Horizontal Rule ====== */
+.page__content hr {
   border: 0;
   height: 1px;
   background: #ccc;
@@ -58,14 +65,14 @@ hr {
 }
 
 /* ====== Contact Links ====== */
-.contact-links a {
+.page__content .contact-links a {
   display: inline-block;
   margin-right: 10px;
   font-size: 1.05em;
 }
 
 /* ====== Footer ====== */
-footer {
+.page__content footer {
   font-style: italic;
   color: #666;
   font-size: 0.95em;
@@ -73,6 +80,7 @@ footer {
   text-align: right;
 }
 </style>
+
 
 <!-- ====== About Section ====== -->
 I am Zohaib Khan, a Ph.D. candidate in Control Science and Engineering at Jiangsu University in my last semester.

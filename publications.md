@@ -5,69 +5,78 @@ permalink: /publications/
 ---
 
 <style>
-/* ====== Academic Style for Publications Page ====== */
-body {
+/* ====== Academic Style for Publications Page (Fixed for Minimal Mistakes) ====== */
+.page__content {
   font-family: "Times New Roman", Times, serif !important;
   font-size: 1.05em;
-  line-height: 1.7;
+  line-height: 1.8;
   color: #111;
   background-color: #fff;
-  max-width: 900px;
+  max-width: 780px;           /* better balance with sidebar */
   margin: 0 auto;
   padding: 10px 25px;
   text-align: justify;
+  hyphens: auto;
+  overflow-wrap: break-word;
+  word-break: normal;
 }
 
 /* ====== Headings ====== */
-h1, h2, h3, h4 {
+.page__content h1,
+.page__content h2,
+.page__content h3,
+.page__content h4 {
   font-family: "Times New Roman", Times, serif !important;
   font-weight: bold;
   color: #222;
   letter-spacing: 0.3px;
 }
-h2 {
+
+.page__content h2 {
   border-bottom: 1px solid #aaa;
   padding-bottom: 0.3em;
   margin-top: 1.8em;
 }
-h3 {
+
+.page__content h3 {
   margin-top: 1.4em;
   color: #333;
 }
 
 /* ====== Publication List ====== */
-ul, ol {
+.page__content ul,
+.page__content ol {
   padding-left: 20px;
   margin-bottom: 1.5em;
 }
-li {
+.page__content li {
   margin-bottom: 0.9em;
 }
 
 /* ====== Emphasis Styles ====== */
-.journal {
+.page__content .journal {
   font-style: italic;
   color: #333;
 }
-.year {
+.page__content .year {
   color: #555;
   font-weight: 600;
 }
-strong {
+.page__content strong {
   color: #000;
 }
 
 /* ====== Links ====== */
-a {
+.page__content a {
   color: #004080;
   text-decoration: none;
 }
-a:hover {
+.page__content a:hover {
   text-decoration: underline;
 }
 
 /* ====== Divider ====== */
-hr {
+.page__content hr {
   border: 0;
   height: 1px;
   background: #ccc;
@@ -75,7 +84,7 @@ hr {
 }
 
 /* ====== Footer ====== */
-footer {
+.page__content footer {
   font-style: italic;
   color: #666;
   font-size: 0.95em;
@@ -83,6 +92,7 @@ footer {
   text-align: right;
 }
 </style>
+
 
 ---
 
