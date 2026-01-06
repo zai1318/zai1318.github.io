@@ -36,14 +36,16 @@ I am broadly interested in developing robust, real-time vision and control syste
   <img id="global-counter" 
        src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fzai1318.github.io&count_bg=%2379C83D&title_bg=%23555555&icon=eye&icon_color=%23E7E7E7&title=Total%20Visits&edge_flat=false" 
        alt="Visitor Counter" 
-       style="border-radius:6px;">
-  <p id="personal-visit" style="margin-top:8px; font-style:italic; font-size:14px; color:#444;"></p>
+       style="border-radius:6px; display:block; margin-bottom:6px;">
+  <p id="total-visits" style="font-size:15px; font-weight:500; color:#333;"></p>
+  <p id="personal-visit" style="margin-top:4px; font-style:italic; font-size:14px; color:#555;"></p>
 </div>
 
 {% raw %}
 <script>
-document.addEventListener("DOMContentLoaded", function () {
-  const key = "zohaib_visit_count";
+document.addEventListener("DOMContentLoaded", async function () {
+  // === Personal visit counter ===
+  const key = "visit_count";
   let count = localStorage.getItem(key);
   let msg = "";
   if (count) {
@@ -55,9 +57,23 @@ document.addEventListener("DOMContentLoaded", function () {
   }
   localStorage.setItem(key, count);
   document.getElementById("personal-visit").innerHTML = msg;
+
+  // === Fetch global total from SVG badge ===
+  const apiUrl = "https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fzai1318.github.io";
+  try {
+    const res = await fetch(apiUrl);
+    const svgText = await res.text();
+    const match = svgText.match(/>(\d+)<\/text>/);
+    if (match) {
+      document.getElementById("total-visits").innerHTML = `🌍 Total site visits so far: <b>${match[1]}</b>`;
+    }
+  } catch (err) {
+    console.error("Could not fetch total visits:", err);
+  }
 });
 </script>
 {% endraw %}
+
 
 ---
 
