@@ -31,5 +31,31 @@ I am broadly interested in developing robust, real-time vision and control syste
  
 
 ---
+### 👀 Visitors
+
+<div id="visitor-container" style="margin-top: 10px;">
+  <img id="global-counter" 
+       src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fzai1318.github.io&count_bg=%2379C83D&title_bg=%23555555&icon=eye&icon_color=%23E7E7E7&title=Total%20Visits&edge_flat=false" 
+       alt="Visitor Counter" 
+       style="border-radius:6px;">
+  <p id="personal-visit" style="margin-top:8px; font-style:italic; font-size:14px; color:#444;"></p>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const key = "zohaib_visit_count";
+  let count = localStorage.getItem(key);
+  let msg = "";
+  if (count) {
+    count = parseInt(count) + 1;
+    msg = `Welcome back 👋 — you have visited this page <b>${count}</b> times.`;
+  } else {
+    count = 1;
+    msg = "Welcome 👋 — this is your first visit!";
+  }
+  localStorage.setItem(key, count);
+  document.getElementById("personal-visit").innerHTML = msg;
+});
+</script>
 
 *Last updated January 2026*
