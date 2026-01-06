@@ -32,7 +32,6 @@ I am broadly interested in developing robust, real-time vision and control syste
 
 ---
 ### 👀 Visitors
-
 <div id="visitor-container" style="margin-top: 10px;">
   <img id="global-counter" 
        src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fzai1318.github.io&count_bg=%2379C83D&title_bg=%23555555&icon=eye&icon_color=%23E7E7E7&title=Total%20Visits&edge_flat=false" 
@@ -41,6 +40,7 @@ I am broadly interested in developing robust, real-time vision and control syste
   <p id="personal-visit" style="margin-top:8px; font-style:italic; font-size:14px; color:#444;"></p>
 </div>
 
+{% raw %}
 <script>
 document.addEventListener("DOMContentLoaded", function () {
   const key = "zohaib_visit_count";
@@ -57,5 +57,8 @@ document.addEventListener("DOMContentLoaded", function () {
   document.getElementById("personal-visit").innerHTML = msg;
 });
 </script>
+{% endraw %}
+
+---
 
 *Last updated January 2026*
